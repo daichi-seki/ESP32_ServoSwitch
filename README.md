@@ -7,6 +7,9 @@ See example example\ESP32_ServoSwitch_control\ESP32_ServoSwitch_control.cpp
 ### SetUp
 
 ```c++
+#include <Arduino.h>
+#include "ESP32_ServoSwitch.h"
+
 #define SERVOPIN_1 (26)     // GPIO 26 is used for PWM
 #define CHANNEL_SERVO_1 (0) // 0 - 15 can be used for PWM channel
 #define SWITCH_OFF_DEG (75) // Switch OFF at 75 deg
